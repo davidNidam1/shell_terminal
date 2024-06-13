@@ -21,8 +21,7 @@ My Custom Shell is a simple command-line interpreter implemented in C. It suppor
 To use My Custom Shell, compile the source code and run the executable. The shell will prompt for commands, which you can enter interactively.
 
 ### Compilation
-gcc -o myshell myshell.c
-
+`gcc -o myshell myshell.c`
 
 ## Running the Shell
 When running the shell, you can specify custom paths as arguments. These paths will be searched for executable commands.
@@ -30,19 +29,32 @@ When running the shell, you can specify custom paths as arguments. These paths w
 
 
 ## Example Usage
-`$ ./myshell /usr/local/bin /home/user/bin
-$ pwd`
-/home/user
-`$ ls`
-file1.txt file2.txt
-`$ cd /home/user/Documents`
+`$ ./myshell /usr/local/bin /home/user/bin`
+
 `$ pwd`
+
+/home/user
+
+`$ ls`
+
+file1.txt file2.txt
+
+`$ cd /home/user/Documents`
+
+`$ pwd`
+
 /home/user/Documents
+
 `$ history`
+
 `pwd`
+
 `ls`
+
 `cd /home/user/Documents`
+
 `pwd`
+
 `$ exit`
 
 
