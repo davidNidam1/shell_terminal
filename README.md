@@ -21,8 +21,6 @@ My Custom Shell is a simple command-line interpreter implemented in C. It suppor
 To use My Custom Shell, compile the source code and run the executable. The shell will prompt for commands, which you can enter interactively.
 
 ### Compilation
-
-```bash
 gcc -o myshell myshell.c
 
 
